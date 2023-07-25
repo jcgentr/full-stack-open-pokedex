@@ -7,9 +7,9 @@
     "node": "16.17.1"
   },
   "scripts": {
-    "start": "PORT=4444 webpack-dev-server --open --mode development",
-    "start-prod": "PORT=4444 node app.js",
-    "start:test": "PORT=4444 NODE_ENV=test node app.js",
+    "start": "webpack-dev-server --open --mode development",
+    "start-prod": "node app.js",
+    "start:test": "NODE_ENV=test node app.js",
     "test": "jest",
     "eslint": "eslint './**/*.{js,jsx}'",
     "build": "webpack --mode production",
