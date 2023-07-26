@@ -6,7 +6,7 @@
 app = "quiet-bird-3223"
 primary_region = "dfw"
 
-[[services]]
+[http_service]
   internal_port = 3000
   force_https = true
   auto_stop_machines = true
