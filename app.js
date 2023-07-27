@@ -9,6 +9,10 @@ app.get("/health", (req, res) => {
   res.send("ok");
 });
 
+app.get("/version", (req, res) => {
+  res.send("v11");
+});
+
 app.listen(PORT, () => {
   console.log(`serving app at http://localhost:${PORT}`);
 });
